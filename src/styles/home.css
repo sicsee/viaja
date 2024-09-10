@@ -75,7 +75,7 @@
     margin-right: 5%;
   }
   #banner img {
-    border: 5px;
+    border: solid #FF6F61 4px;
   }
 
 }
