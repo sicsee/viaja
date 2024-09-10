@@ -55,17 +55,24 @@
 
 @media screen and (max-width: 1170px){
   #home {
-    margin: 0;
-    width: 100%;
     min-height: 100%;
-    padding: 0;
+    padding: 0px 8%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: justify;
   }
-  #banner, img {
-    display: none;
-  } 
+  #cta {
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+  #banner p {
+    margin-top: 15%;
+  }
+  #banner, #banner img {
+    width: 100%;
+    margin-right: 5%;
+  }
 
 }
