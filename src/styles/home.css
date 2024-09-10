@@ -74,5 +74,8 @@
     width: 100%;
     margin-right: 5%;
   }
+  #banner img {
+    border: 1px;
+  }
 
 }
