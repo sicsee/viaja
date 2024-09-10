@@ -67,15 +67,8 @@
     align-items: center;
     margin-bottom: 5%;
   }
-  #banner p {
-    margin-top: 15%;
-  }
   #banner, #banner img {
-    width: 100%;
-    margin-right: 5%;
-  }
-  #banner img {
-    border: solid #FF6F61 4px;
+    display: none;
   }
 
 }

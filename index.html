@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="src/styles/styles.css">
-  <link rel="stylesheet" href="src/styles/header.css">
-  <link rel="stylesheet" href="src/styles/home.css">
+  <link rel="stylesheet" href="./src/styles/styles.css">
+  <link rel="stylesheet" href="./src/styles/header.css">
+  <link rel="stylesheet" href="./src/styles/home.css">
+  <link rel="stylesheet" href="./src/styles/destinos.css">
   <title>VIAJA+</title>
 </head>
 <body>
@@ -43,7 +44,7 @@
     <main id="content">
       <section id="home">
         <div id="cta">
-          <h1 class="title"> Explore o Mundo com a <span>Viaja+</span> </h1>
+          <h1 class="title"> Explore o Mundo com a <span>Viaja+</span></h1>
           <p class="description">Descubra destinos incríveis ao redor do mundo e planeje a viagem dos seus sonhos com nossas dicas e guias de especialistas.</p>
           <a href="#destinos" class="btn-default">Ver Destinos</a>
           <div class="social-media">
@@ -56,10 +57,57 @@
           <p>Baía do Sancho, Fernando de Noronha (PE)</p>
           <img src="src/images/praia.jpg" alt="praia">
          </div>
+      </section>
+      <section id="destinos">
+        <h2 class="title">Lugares para Explorar com <span>Viaja+</span></h2>
+        <h3 class="subtitle">Veja uma seleção de destinos ao redor do mundo, categorizados por continente.</h3>
+        <h3 class="continente">América do Sul</h3>
+        <div class="grid-paises">
+          <div class="box-paises">
+            <h3 class="nome-pais">Argentina</h3>
+            <img src="/src/images/argentina.jpg" alt="argentina">
+            <p>Buenos Aires e Cataratas do Iguaçu</p>
+          </div>
+          <div class="box-paises">
+            <h3 class="nome-pais">Brasil</h3>
+            <img src="/src/images/brasil.jpg" alt="Brasil">
+            <p>Praias do Nordeste, Amazônia e Rio de Janeiro</p>
+          </div>
+          <div class="box-paises">
+            <h3 class="nome-pais">Peru</h3>
+            <img src="/src/images/Peru.jpg" alt="Peru">
+            <p>Machu Picchu e cultura Inca</p>
+          </div>
+        </div>
+        <h3 class="continente">Europa</h3>
+        <div class="grid-paises">
+          <div class="box-paises">
+            <h3 class="nome-pais">França</h3>
+            <img src="/src/images/franca.jpg" alt="França">
+            <p>Paris, vinhedos e praias do sul</p>
+          </div>
+          <div class="box-paises">
+            <h3 class="nome-pais">Grécia</h3>
+            <img src="/src/images/grecia.jpg" alt="Grécia">
+            <p>Ilhas gregas e ruínas antigas</p>
+          </div>
+          <div class="box-paises">
+            <h3 class="nome-pais">Itália</h3>
+            <img src="/src/images/italia.jpg" alt="Itália">
+            <p>Roma, Florença e Costa Amalfitana</p>
+          </div>
+        </div>
+
+        <a href="destinos.html" class="btn-vj">Veja Mais</a>
+
+
+      </section>
+      <section id="guias">
+        <h2 class="title">Guias de Viagem Completas</h2>
+        <h3 class="subtitle"></h3>
 
       </section>
     </main>
-  
     <script src="src/javascript/script.js"></script>
 </body>
 </html>

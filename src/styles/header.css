@@ -1,6 +1,7 @@
 header {
   width: 100%;
   padding: 28px 8%;
+  background-color: transparent;
 }
 
 #navbar {
@@ -25,6 +26,7 @@ header {
   text-decoration: none;
   color: #003366;
   font-weight: 600;
+  font-size: 18px;
 }
 
 .nav-item.active a{
