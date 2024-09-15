@@ -1,0 +1,41 @@
+#guias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#guias-box {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.guias-item {
+  border-radius: 25px;
+  border: 5px solid #003366;  
+  padding: 10px;
+  text-align: center;
+  height: 400px;
+  overflow: hidden;
+}
+
+.guias-item h4 {
+  color: #FF6F61;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #003366;
+}
+
+.guias-item .description {
+  text-align: justify;
+  font-size: 15px;
+  margin-bottom: 5%;
+}
+
+.guias-item span {
+  color: black;
+  font-weight: bolder;
+}

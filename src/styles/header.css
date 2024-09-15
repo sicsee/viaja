@@ -1,7 +1,14 @@
+*, *::before, *::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
 header {
   width: 100%;
   padding: 28px 8%;
-  background-color: transparent;
 }
 
 #navbar {
@@ -23,16 +30,35 @@ header {
 }
 
 .nav-item a {
+  position: relative;
   text-decoration: none;
   color: #003366;
   font-weight: 600;
   font-size: 18px;
+  padding: 0 10px;
+  transition: color .3s ease;
 }
 
-.nav-item.active a{
-  color: #001c38;
-  border-bottom: 3px solid #FF6F61;
+.nav-item a:hover {
+  color: #FF6F61;
 }
+
+.nav-item a::after {
+  content: "";
+  position: absolute;
+  background-color: #FF6F61;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+  transition: width .3s ease;
+}
+
+.nav-item a:hover::after{
+  width: 100%;
+  color: #FF6F61;
+}
+
 
 #mobile-btn {
   display: none;
