@@ -2,7 +2,7 @@
 
 @import url('./src/styles/header.css');
 @import url('./src/styles/home.css');
-@import url('/src/styles/destinos.css');
+@import url("./src/styles/destinos.css");
 @import url('/src/styles/guias.css');
 
 
